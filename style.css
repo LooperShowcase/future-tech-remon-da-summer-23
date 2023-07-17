@@ -1,38 +1,33 @@
-.container
-{
+.container {
     background-color: rgb(54, 53, 53);
     align-items: center;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
 }
 
-#myinput
-{
+#myinput {
     color: rgb(255, 250, 250);
     background-color: rgb(0, 0, 0);
-    padding :10px;
-    width :200px;
-    transition:0.4s;
-}
-#mybutton
-{
-    color: rgba(255, 255, 255, 0.486);
-    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    width: 80%;
+    transition: 0.4s;
 }
 
-#mybutton
-{
+#mybutton {
+    color: rgba(255, 255, 255, 0.486);
+    background-color: rgb(0, 0, 0);
     box-shadow: 0px 0px 10px;
     background-color: blue;
     color: aliceblue;
-    padding :5px;
-    transition:0.3s;
+    padding: 10px;
+    font-size: 16px;
+    transition: 0.3s;
+    text-align: center;
 }
-#mybutton:hover
-{
+
+#mybutton:hover {
     background-color: rgb(255, 0, 0);
     cursor: pointer;
-
 }
